@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { postAdded } from "./postsSlice";
-import { selectAllUsers } from "../users/userSlice";
+import { selectAllUsers } from "./users/userSlice";
 
 const AddPostForm = () => {
   //set initial states using react context that we can use for out input and text area default values
