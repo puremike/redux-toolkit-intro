@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to="/counter" smooth>
           Counter App
         </Link>
-        <Link to="#" smooth>
+        <Link to="/blog" smooth>
           Blog App
         </Link>
       </div>

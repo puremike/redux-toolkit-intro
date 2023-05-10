@@ -30,7 +30,7 @@ const PostsList = () => {
   });
 
   return (
-    <section>
+    <section className="post-list">
       <h2>Posts</h2>
       {renderedPosts}
     </section>
