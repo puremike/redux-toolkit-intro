@@ -1,0 +1,19 @@
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 1.5rem;
+}
+
+.navbar a:hover {
+    color: rgb(236, 179, 37);
+}
+
+.navbar {
+    padding: 1rem 1.3rem;
+    background-color: rgb(80, 102, 246);
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

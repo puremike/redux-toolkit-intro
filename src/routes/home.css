@@ -1,0 +1,22 @@
+.home {
+    min-height: 89vh;
+    padding: 20rem 0;
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke
+}
+
+.home p {
+    font-size: 4rem;
+}
+
+.home a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.home a:hover {
+    color: rgb(236, 179, 37);
+}

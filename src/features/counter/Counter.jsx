@@ -17,7 +17,7 @@ const Counter = () => {
   const addValue = Number(incrementAmount) || 0;
 
   return (
-    <section>
+    <section className="counter">
       <p>{count}</p>
       <div>
         <button onClick={() => dispatch(increment())}>+</button>

@@ -1,14 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
+.counter {
   font-size: 5rem;
-  display: grid;
-  place-content: center;
+  text-align: center;
+  background-color: rgb(127, 141, 233);
+  color: black;
 }
 
 input,
@@ -22,6 +16,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 5rem;
 }
 
 input {
